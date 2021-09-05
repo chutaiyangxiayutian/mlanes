@@ -1,0 +1,10 @@
+default_platform(:ios)
+
+platform :ios do
+  lane :hello do
+    puts "🚀 hello world"
+
+    my_action(api_token: '123')
+    haha
+  end
+end
