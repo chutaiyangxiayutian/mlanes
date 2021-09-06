@@ -4,3 +4,6 @@
 
 gem 'fastlane-plugin-unzip', '>= 1.0.1', '< 2.0'
 gem 'fastlane-plugin-haha', path: '../fastlane-plugin-haha'
+gem 'fastlane-plugin-git_clone', path: '../fastlane-plugin-git_clone'
+gem 'fastlane-plugin-ipa_install_plist_generate', path: '../fastlane-plugin-ipa_install_plist_generate'
+gem 'fastlane-plugin-wechat', path: '../fastlane-plugin-wechat'

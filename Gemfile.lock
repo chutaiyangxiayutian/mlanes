@@ -1,4 +1,19 @@
 PATH
+  remote: fastlane-plugin-git_clone
+  specs:
+    fastlane-plugin-git_clone (0.1.5)
+
+PATH
+  remote: fastlane-plugin-ipa_install_plist_generate
+  specs:
+    fastlane-plugin-ipa_install_plist_generate (1.0.0)
+
+PATH
+  remote: fastlane-plugin-wechat
+  specs:
+    fastlane-plugin-wechat (1.0.0)
+
+PATH
   remote: fastlane-plugin-haha
   specs:
     fastlane-plugin-haha (0.1.0)
@@ -214,8 +229,11 @@ PLATFORMS
 
 DEPENDENCIES
   fastlane (= 2.193.1)
+  fastlane-plugin-git_clone!
   fastlane-plugin-haha!
+  fastlane-plugin-ipa_install_plist_generate!
   fastlane-plugin-unzip (>= 1.0.1, < 2.0)
+  fastlane-plugin-wechat!
 
 BUNDLED WITH
    2.0.2
